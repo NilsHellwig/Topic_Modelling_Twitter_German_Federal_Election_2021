@@ -1,0 +1,6 @@
+pandas
+numpy
+gensim
+de_core_news_sm
+nltk
+seaborn
