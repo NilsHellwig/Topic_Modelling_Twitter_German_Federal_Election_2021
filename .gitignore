@@ -1,5 +1,7 @@
 Datasets/dataset_mentions
+Datasets/raw_dataset_mentions
 Datasets/dataset_politicians
 Datasets/dataset_mentions_predictions
 Datasets/filtered_mentions.csv
 Datasets/filtered_politicians.csv
+.DS_STORE
