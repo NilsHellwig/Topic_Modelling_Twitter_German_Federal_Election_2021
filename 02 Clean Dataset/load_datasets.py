@@ -7,17 +7,31 @@ DATASET_MENTIONS_PATH = "../Datasets/dataset_mentions/"
 DATASET_POLITICIANS_PATH = "../Datasets/dataset_politicians/all_tweets_predicted_bert93.csv"
 
 def load_politicians_dataset():
-    df = pd.read_csv(DATASET_POLITICIANS_PATH)
+    df = pd.read_csv(DATASET_PATH)
     
     # Umbenennen einer Spalte
-    df = df.rename(columns={"Embedded_text": "text", "UserName": "source_account", "Partei": "source_party", "sentiment_prediction": "sentiment", "Timestamp": "date"})
+    df = df.rename(columns={"Embedded_text": "text", "UserName": "source_account", "Partei": "source_party", "sentiment_prediction": "sentiment", "Timestamp": "date", "Image link": "photos"})
     
     df['date'] = pd.to_datetime(df['date'])
     df['date'] = df['date'].dt.strftime('%Y-%m-%d %H:%M:%S')
     df['source_account'] = df['source_account'].str.lstrip('@')
-
+    
     # Löschen einer Spalte durch ihren Namen
     df = df.drop(columns=["Unnamed: 0", "Unnamed: 0.1"])
+    
+    # Mapping der Parteinamen
+    party_mapping = {
+        'AfD': 'AFD',
+        'CDU/CSU': 'CDU_CSU',
+        'DieLinke': 'LINKE',
+        'Gruene': 'GRUENE',
+        'FDP': 'FDP',
+        'SPD': 'SPD'
+    }
+    
+    df['source_party'] = df['source_party'].map(party_mapping)
+    df['tweet_id'] = df['Tweet URL'].str.extract(r'status/(\d+)')
+    
     return df
 
 def load_mentions_dataset():

@@ -5,3 +5,6 @@ Datasets/dataset_mentions_predictions
 Datasets/filtered_mentions.csv
 Datasets/filtered_politicians.csv
 .DS_STORE
+
+Datasets/img_dataset_mentions
+Datasets/img_dataset_politicians
