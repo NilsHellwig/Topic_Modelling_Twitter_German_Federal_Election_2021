@@ -3,5 +3,11 @@ numpy
 gensim
 nltk
 seaborn
+torch==1.7.1
 bertopic
 gensim
+wordcloud
+matplotlib
+Pillow
+svglib
+reportlab
