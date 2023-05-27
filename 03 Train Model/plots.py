@@ -3,6 +3,18 @@ import pandas as pd
 
 FONT_PATH = "fonts/LinLibertine_R.ttf"
 
+def add_missing_months(df):
+    # Erstelle einen leeren DataFrame mit allen Monaten des Jahres
+    all_months = pd.DataFrame({'month': range(1, 13)})
+    
+    # Führe einen Left Join durch, um die fehlenden Monate hinzuzufügen
+    merged_df = all_months.merge(df, on='month', how='left')
+    
+    # Fülle die fehlenden Werte mit 0
+    merged_df['count'] = merged_df['count'].fillna(0)
+    
+    return merged_df
+
 def setup_font(plt):
     font_manager.fontManager.addfont(FONT_PATH)
     prop = font_manager.FontProperties(fname=FONT_PATH)
@@ -128,12 +140,14 @@ def plot_timeseries_sentiment_subplots(df_topics, n_topics, document_info, topic
     
         topic_counts = document_info[document_info["Topic"] == i].groupby("month").agg({"sentiment": "first", "Topic": "size"}).reset_index()
         topic_counts.columns = ["month", "sentiment", "count"]
+        topic_counts = add_missing_months(topic_counts)
         ax.plot(topic_counts["month"], topic_counts["count"], color="grey", linestyle='--')
-    
+        
         for sentiment in sentiments:
             topic_counts = document_info[(document_info["Topic"] == i) & (document_info["sentiment"] == sentiment)]
             topic_counts = topic_counts.groupby("month").size().reset_index(name="count")
-    
+            topic_counts = add_missing_months(topic_counts)
+   
             ax.plot(topic_counts["month"], topic_counts["count"], label=sentiment, color='red' if sentiment == 1 else 'green' if sentiment == 0 else 'orange')
         
     

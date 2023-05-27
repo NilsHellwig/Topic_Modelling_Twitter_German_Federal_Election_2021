@@ -11,3 +11,4 @@ matplotlib
 Pillow
 svglib
 reportlab
+simpletransformers

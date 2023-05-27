@@ -4,10 +4,10 @@ import os
 DATASET_PATH_MENTIONS_PREDICTIONS =  "../Datasets/dataset_mentions_predictions/"
 PARTIES = ["SPD", "CDU_CSU", "GRUENE", "FDP", "AFD", "LINKE"]
 DATASET_MENTIONS_PATH = "../Datasets/dataset_mentions/"
-DATASET_POLITICIANS_PATH = "../Datasets/dataset_politicians/all_tweets_predicted_bert93.csv"
+DATASET_POLITICAL_ACCOUNTS_PATH = "../Datasets/dataset_political_accounts/dataset.csv"
 
-def load_politicians_dataset():
-    df = pd.read_csv(DATASET_PATH)
+def load_political_accounts_dataset():
+    df = pd.read_csv(DATASET_POLITICAL_ACCOUNTS_PATH)
     
     # Umbenennen einer Spalte
     df = df.rename(columns={"Embedded_text": "text", "UserName": "source_account", "Partei": "source_party", "sentiment_prediction": "sentiment", "Timestamp": "date", "Image link": "photos"})

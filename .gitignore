@@ -1,10 +1,11 @@
 Datasets/dataset_mentions
 Datasets/raw_dataset_mentions
-Datasets/dataset_politicians
+Datasets/dataset_political_accounts
 Datasets/dataset_mentions_predictions
-Datasets/filtered_mentions.csv
-Datasets/filtered_politicians.csv
 .DS_STORE
 
 Datasets/img_dataset_mentions
-Datasets/img_dataset_politicians
+Datasets/img_dataset_political_accounts
+Models/
+Datasets/tweets_mentions.csv
+Datasets/tweets_political_accounts.csv
