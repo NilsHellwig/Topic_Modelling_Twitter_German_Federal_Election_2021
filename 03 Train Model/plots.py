@@ -24,7 +24,7 @@ def setup_font(plt):
     plt.rcParams['font.sans-serif'] = prop.get_name()
     return plt
 
-def plot_topic_subplots(df_topics, n_topics, topic_count, filename="plots/top5_topics"):
+def plot_topic_subplots(df_topics, n_topics, topic_count, filename="results/top5_topics"):
     print(topic_count[0])
     import matplotlib.pyplot as plt
     
@@ -76,7 +76,7 @@ def plot_topic_subplots(df_topics, n_topics, topic_count, filename="plots/top5_t
     plt.show()
     
 
-def plot_timeseries_subplots(df_topics, n_topics, topics_over_time, filename="plots/timeseries_topics"):
+def plot_timeseries_subplots(df_topics, n_topics, topics_over_time, filename="results/timeseries_topics"):
     import matplotlib.pyplot as plt
 
     num_plots_per_row = 5
@@ -119,7 +119,7 @@ def plot_timeseries_subplots(df_topics, n_topics, topics_over_time, filename="pl
         
     plt.show()
     
-def plot_timeseries_sentiment_subplots(df_topics, n_topics, document_info, topics_over_time, filename="plots/timeseries_sentiment_subplots"):
+def plot_timeseries_sentiment_subplots(df_topics, n_topics, document_info, topics_over_time, filename="results/timeseries_sentiment_subplots"):
     import matplotlib.pyplot as plt
 
     num_plots_per_row = 4

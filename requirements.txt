@@ -9,6 +9,4 @@ gensim
 wordcloud
 matplotlib
 Pillow
-svglib
-reportlab
 simpletransformers
