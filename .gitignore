@@ -9,3 +9,4 @@ Datasets/img_dataset_political_accounts
 Models/
 Datasets/tweets_mentions.csv
 Datasets/tweets_political_accounts.csv
+03 Train Model/.ipynb_checkpoints/train-bertopic-checkpoint.ipynb
