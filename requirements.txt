@@ -4,9 +4,11 @@ gensim
 nltk
 seaborn
 torch==1.7.1
-bertopic
+bertopic==0.14.1
 gensim
 wordcloud
 matplotlib
 Pillow
+transformers==4.30.0
 simpletransformers
+spacy
