@@ -1,0 +1,19 @@
+\begin{tabular}{rlllll}
+\toprule
+Topic & Frequency &                        Top Words & Topic & Frequency &                          Top Words \\
+\midrule
+    1 &     6,700 &            deutschland, afd, cdu &  14 &       378 &       frau, mann, arbeitsförderung \\
+    2 &     2,960 &          euro, jahr, deutschland &  15 &       287 & flüchtling, deutschland, migration \\
+    3 &     1,338 &          tweet, twitter, antwort &  16 &       279 &       idiot, journalist, ideologie \\
+    4 &     1,351 &               covid, cases, data &  17 &       410 &               virus, variante, cov \\
+    5 &     1,302 &     impfstoff, impfung, biontech &  18 &       205 &               maske, ffp, belegung \\
+    6 &     1,204 &        corona, jahr, coronavirus &  19 &       213 &       israel, jude, antisemitismus \\
+    7 &     1,147 &             covid, fall, patient &  20 &       604 &               cdu, csu, maskendeal \\
+    8 &       783 &       politik, partei, politisch &  21 &       274 &                  scholz, olaf, spd \\
+    9 &       660 &              kind, schule, kitas &  22 &       172 &               prime, deputy, party \\
+   10 &       685 &       union, spd, bundestagswahl &  23 &       291 &                grüne, antrag, grün \\
+   11 &       321 &   cannabis, legalisierung, droge &  24 &       188 &      digital, digitalisierung, neu \\
+   12 &       476 &     freiheit, recht, grundgesetz &  25 &       246 &              lauterbach, karl, spd \\
+   13 &       351 & afghanistan, taliban, bundeswehr &       &           &                                    \\
+\bottomrule
+\end{tabular}

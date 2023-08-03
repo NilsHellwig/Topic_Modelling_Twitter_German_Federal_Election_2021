@@ -3,7 +3,6 @@ Datasets/raw_dataset_mentions
 Datasets/dataset_political_accounts
 Datasets/dataset_mentions_predictions
 .DS_STORE
-
 Datasets/img_dataset_mentions
 Datasets/img_dataset_political_accounts
 Models/
@@ -13,3 +12,11 @@ Datasets/tweets_political_accounts.csv
 Datasets/tweets_mentions_cleaned.csv
 Datasets/tweets_political_accounts_cleaned.csv
 Results Topic Modells/
+06 BERTopic Models Results/results_mentions_img/model.zip
+06 BERTopic Models Results/results_political_party_accounts_img/model.zip
+06 BERTopic Models Results/results_political_party_accounts_text/model.zip
+06 BERTopic Models Results/results_mentions_img/wordclouds
+06 BERTopic Models Results/results_political_party_accounts_img/wordclouds
+06 BERTopic Models Results/results_political_party_accounts_text/wordclouds
+06 BERTopic Models Results/results_mentions_text/wordclouds
+06 BERTopic Models Results/results_mentions_text/model.zip

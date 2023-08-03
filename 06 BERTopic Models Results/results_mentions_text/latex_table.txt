@@ -1,0 +1,19 @@
+\begin{tabular}{rlllll}
+\toprule
+Topic & Frequency &                         Top Words & Topic & Frequency &                                      Top Words \\
+\midrule
+    1 &   236,107 &                    cdu, gut, kind &  14 &     5,721 &             digital, digitalisierung, internet \\
+    2 &    67,815 &        impfung, impfstoff, impfen &  15 &     5,236 &                        angst, panik, panikmach \\
+    3 &    54,590 &      deutschland, deutsch, berlin &  16 &     4,553 &             korruption, korrupt, cdukorruption \\
+    4 &    24,157 &              geld, steuer, zahlen &  17 &     3,461 & cannabis, legalisierung, cannabislegalisierung \\
+    5 &    11,354 &             tweet, twitter, lesen &  18 &     4,467 &                             maske, tragen, ffp \\
+    6 &    13,716 &   klimaschutz, klima, klimawandel &  19 &     4,062 &                       christlich, kirche, wert \\
+    7 &    11,994 &                union, arbeit, job &  20 &     4,535 &                 flüchtling, migrant, migration \\
+    8 &    12,127 &              energie, strom, wind &  21 &     3,484 &                      alkohol, trinken, rauchen \\
+    9 &    12,461 &              bild, journalist, tv &  22 &     3,661 &                      droge, pharma, medikament \\
+   10 &     5,744 &     israel, antisemitismus, islam &  23 &     4,051 &                         lachen, satire, lustig \\
+   11 &    11,893 &             frau, mann, rassismus &  24 &     3,664 &                      lockdown, hart, lockdowns \\
+   12 &     7,758 &                auto, fahren, bahn &  25 &     5,016 &                      fdp, liberal, konservativ \\
+   13 &     4,832 & nazi, afdbeobachtungjetzt, fckafd &       &           &                                                \\
+\bottomrule
+\end{tabular}

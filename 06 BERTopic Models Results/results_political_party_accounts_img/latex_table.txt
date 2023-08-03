@@ -1,0 +1,19 @@
+\begin{tabular}{rlllll}
+\toprule
+Topic & Frequency &                           Top Words & Topic & Frequency &                               Top Words \\
+\midrule
+    1 &     2,601 &            deutschland, corona, afd &  14 &       225 &                     cdu, cduzcsu, ralph \\
+    2 &     1,275 &                       spd, cdu, fdp &  15 &       145 &                       scholz, olaf, spd \\
+    3 &       459 &              uhr, digital, facebook &  16 &       105 &        afghanistan, taliban, bundeswehr \\
+    4 &       404 &         klimaschutz, energie, klima &  17 &       108 &        russland, datenträger, unterlage \\
+    5 &       428 &              euro, rente, einkommen &  18 &       113 &                  virus, coronavirus, tz \\
+    6 &       310 &                  cases, covid, data &  19 &       115 &                  arbeit, cduo, arbeiten \\
+    7 &       242 &                    grün, grüne, top &  20 &       104 &          landwirtschaft, künast, renate \\
+    8 &       215 & sonntagsfrage, befragung, befragter &  21 &       128 &                covid, patient, inzidenz \\
+    9 &       224 &    rassismus, opfer, antisemitismus &  22 &       152 &                   berlin, hbf, dielinke \\
+   10 &       204 &         pmk, unternehmen, quellcode &  23 &       116 &            pandemie, kramp, karrenbauer \\
+   11 &       189 &    impfstoff, impfpflicht, biontech &  24 &        93 &                  steuer, geld, haushalt \\
+   12 &       178 &               kind, schule, familie &  25 &        78 & bartsch, dietmar, fraktionsvorsitzender \\
+   13 &       139 &              twitter, tweet, iphone &       &           &                                         \\
+\bottomrule
+\end{tabular}

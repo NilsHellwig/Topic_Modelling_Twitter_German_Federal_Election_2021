@@ -1,0 +1,19 @@
+\begin{tabular}{rlllll}
+\toprule
+Topic & Frequency &                     Top Words & Topic & Frequency &                        Top Words \\
+\midrule
+    1 &    16,757 &        afd, berlin, bundestag &  14 &       805 &   landwirtschaft, wald, landwirt \\
+    2 &     9,143 &    corona, impfstoff, impfung &  15 &     1,078 &            twitter, tweet, trump \\
+    3 &     3,383 &    klimaschutz, klima, sozial &  16 &       606 &              fußball, spiel, hsv \\
+    4 &     3,173 & digital, digitalisierung, uhr &  17 &       485 &    rassismus, hanau, rassistisch \\
+    5 &     2,767 &           euro, rente, steuer &  18 &       613 &            nazi, gedenken, opfer \\
+    6 &     3,024 &        csu, cdu, abgeordneter &  19 &       629 &            bahn, auto, mobilität \\
+    7 &     2,000 &         eu, russland, belarus &  20 &       926 &      arbeit, beschäftigter, lohn \\
+    8 &     1,861 &         kind, schule, familie &  21 &       504 &  pflege, krankenhaus, gesundheit \\
+    9 &     1,906 &          youtube, live, orbit &  22 &       452 &                maske, ffp, spahn \\
+   10 &     1,854 &   polizei, bundeswehr, werden &  23 &       301 &  atomkraft, fukushima, atomwaffe \\
+   11 &     1,182 &   afghanistan, taliban, kabul &  24 &       330 &        türkei, erdogan, türkisch \\
+   12 &     1,182 &  israel, antisemitismus, jude &  25 &       470 & preis, wasserstoff, energiepreis \\
+   13 &     1,164 &         frau, gender, sprache &       &           &                                  \\
+\bottomrule
+\end{tabular}

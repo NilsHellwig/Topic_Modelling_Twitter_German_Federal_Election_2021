@@ -154,7 +154,7 @@ def plot_timeseries_sentiment_subplots(df_topics, n_topics, document_info, topic
         ax.set_xlabel("Month")
         ax.set_ylabel("# Tweets")
         ax.set_xticks(range(1, 13))
-        ax.set_title(f"Topic {i+1} by Month\n" + ','.join(top_3))
+        ax.set_title(f"Topic {i+1}\n" + ','.join(top_3))
     
     plt.subplots_adjust(wspace=0.4, hspace=0.55) 
     
